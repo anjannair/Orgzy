@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+	<script type="text/javascript">
+		function validate(){
+			if(document.inputer.pwd.value != document.inputer.pwd2.value)
+			{
+				alert("Passwords don't match");
+			}
+		}
+	</script>
+<div class="SignUp">
+	<h1>SIGN UP</h1>
+	<form name="inputer">
+	<div class="input">
+	<input type="text" name="FULL NAME" placeholder="FULL NAME" required="">
+	</div>
+	<div class="input">
+	<input type="password" name="pwd" required="" placeholder="CREATE PASSWORD">
+	<input type="password" name="pwd2" required="" placeholder="RETYPE PASSWORD">
+    </div>
+    <input type="submit" name="create" class="but" value="CREATE ACCOUNT" id="bold" onclick="validate()">
+    </form>
+</div>
+
+</body>
+</html>

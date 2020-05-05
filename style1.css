@@ -1,0 +1,131 @@
+*{
+    margin: auto;
+    padding: 10;
+    font-family: Courier New;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://i.pinimg.com/originals/e2/e1/42/e2e1429d4372afdbda65a67fa20a8d27.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    border: 0px solid white;  
+    transition: 0.7s ease;  
+}
+ ul li a:hover{
+     background-color: white;
+     color: black;
+
+ }
+
+ ul li.active a{
+    background-color: white;
+    color: black;
+ }
+ .logo img{
+     float: left;
+     width: 250px;
+     height: auto;
+     border-radius: 10px;
+     margin-top: 17px;
+ }
+ .first{
+     max-width: 1200px;
+     margin: auto;
+     
+ }
+
+ .title{
+     position: absolute;
+     top: 30%;
+     left: 30%;
+     transform:translate(-50%,-50%);
+     
+ }
+ .about{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;   
+ }
+ .about h1{
+ 	padding: 29px;
+ 	font-family: Times New Roman
+ }
+ .about h3{
+ 	padding: 29px;
+ }
+ .about h2{
+ 	padding: 29px;
+ }
+
+#bold{
+	font-weight: bold
+}
+.image1{
+width: 330px; 
+height: 220px; 
+/*border: 5px;*/
+position: absolute;
+left:9%;
+top:65%;
+
+} 
+.image2{
+width: 330px; 
+height: 220px; 
+/*border: 5px;*/
+position: absolute;
+left:30%;
+top:65%;
+
+} 
+.image3{
+width: 330px; 
+height: 220px; 
+/*border: 5px;*/
+position: absolute;
+left:51%;
+top:65%;
+
+} 
+img{ 
+width: 50%; 
+height: 70%; 
+}
+
+.fig1{
+position: absolute;
+left:14%;
+top:95%;
+color: white;
+font-weight: bold;
+}
+.fig2{
+position: absolute;
+left:34%;
+top:95%;
+color: white;
+font-weight: bold;
+}
+.fig3{
+position: absolute;
+left:56%;
+top:95%;
+color: white;
+font-weight: bold;
+}
